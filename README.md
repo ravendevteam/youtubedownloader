@@ -7,7 +7,7 @@
 Simple utility for bulk downloading YouTube videos. Made for Windows 10/11.
 
 > [!CAUTION]
-> It is assumed that you are authorized to utilize this tool for downloading. We take no responsibility for the usage of this utlity by its users.
+> It is assumed that you are authorized to utilize this tool for downloading. We take no responsibility for the usage of this utility by its users.
 
 ## Screenshots
 
