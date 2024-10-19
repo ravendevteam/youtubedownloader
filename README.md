@@ -1,10 +1,9 @@
 
 # Raven YouTube Downloader
 
-> [!NOTE]
-> All of our free software is designed to respect your privacy, while being as simple to use as possible. Our free software is licensed under the [BSD-3-Clause license](https://ravendevteam.org/files/BSD-3-Clause.txt). By using our software, you acknowledge and agree to the terms of the license.
+Simple utility for bulk downloading YouTube videos.
 
-Simple utility for bulk downloading YouTube videos. Made for Windows 10/11.
+It is not bound by the typical BSD-3 Clause license we typically use. If you do use this, no credit is needed.
 
 ## Features
 
@@ -18,11 +17,3 @@ Simple utility for bulk downloading YouTube videos. Made for Windows 10/11.
 ## Screenshots
 
 ![Demo Screenshot 1](https://raw.githubusercontent.com/ravendevteam/youtubedownloader/refs/heads/main/demo_screenshot_1.png)
-
-## Roadmap
-
-- Allow usage via command line (possibly)
-
-## Authors
-
-- [Raven Development Team](https://ravendevteam.org/)
