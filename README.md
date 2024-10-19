@@ -1,5 +1,5 @@
 
-# Raven YouTube Downloader
+# YouTube Downloader
 
 Simple utility for bulk downloading YouTube videos.
 
