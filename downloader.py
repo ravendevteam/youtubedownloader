@@ -57,7 +57,7 @@ class DownloadThread(QThread):
 class RavenYTDLApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Raven YouTube Downloader")
+        self.setWindowTitle("YouTube Downloader")
         self.setGeometry(300, 300, 600, 400)
 
         self.urls = []
@@ -71,46 +71,7 @@ class RavenYTDLApp(QMainWindow):
 
         self.setStyleSheet("""
             QMainWindow {
-                background-color: black;
-                color: white;
                 font-family: 'Segoe UI';
-            }
-            QTextEdit, QLineEdit {
-                background-color: black;
-                color: white;
-                border: 1px solid #444;
-                padding: 5px;
-                font-family: 'Segoe UI';
-            }
-            QPushButton {
-                background-color: black;
-                color: white;
-                border: 1px solid #444;
-                padding: 5px;
-                font-family: 'Segoe UI';
-            }
-            QPushButton:hover {
-                background-color: #333;
-            }
-            QScrollArea {
-                background-color: black;
-            }
-            QWidget#progress_widget {
-                background-color: black;
-                border: 1px solid #444;
-            }
-            QProgressBar {
-                background-color: #444;
-                text-align: center;
-                border: 1px solid #444;
-            }
-            QProgressBar::chunk {
-                background-color: #28a745;
-            }
-            QLabel {
-                font-family: 'Segoe UI';
-                background-color: black;
-                color: white;
             }
         """)
 
@@ -150,7 +111,6 @@ class RavenYTDLApp(QMainWindow):
         self.scroll_area.setWidgetResizable(True)
         self.progress_widget = QWidget()
         self.progress_widget.setObjectName("progress_widget")
-        self.progress_widget.setStyleSheet("border: 1px solid #444;")
         self.scroll_area.setWidget(self.progress_widget)
         self.progress_layout = QVBoxLayout(self.progress_widget)
         self.progress_widget.setLayout(self.progress_layout)
@@ -200,7 +160,7 @@ class RavenYTDLApp(QMainWindow):
             url = url.strip()
             self.progress_values[url] = 0
             status_label = QLabel(f"Pending: {url}", self)
-            status_label.setStyleSheet("color: white; padding: 5px;")
+            status_label.setStyleSheet("color: black; padding: 5px;")
             status_label.setFixedHeight(30)
             status_label.setAlignment(Qt.AlignLeft | Qt.AlignTop)
             self.progress_layout.addWidget(status_label)
